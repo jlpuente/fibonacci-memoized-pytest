@@ -1,4 +1,4 @@
-# Time performance comparison for 3 Fibonacci sequence implementations
+# Fast n-th Fibonacci algorithm: comparison of time performance
 
 | Fibonacci              | Execution time per loop for F(38) |
 |------------------------|-----------------------------------|
@@ -11,7 +11,7 @@
 `python -m timeit -r 10 -s "import fib_iterative" "fib_iterative.fi
 b(38)"`
 
-200000 loops, best of 10: 1.14 usec per loop
+200 000 loops, best of 10: 1.14 usec per loop
 
 **Naive**:
 
@@ -23,6 +23,6 @@ b(38)"`
 
 `python -m timeit -r 10 -s "import fib_memo" "fib_memo.fib(38)"`
 
-5000000 loops, best of 10: 59.3 nsec per loop
+5 000 000 loops, best of 10: 59.3 nsec per loop
 
-The 38-th Fibonacci term is 39088169.
+The 38-th Fibonacci term is 39 088 169.
