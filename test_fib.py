@@ -3,6 +3,12 @@ import fib_iterative
 import fib_naive
 import fib_memo
 
+"""
+- Run multiple tests.
+- Save this script as 'test_*.py', where * is some name in order to run a test using pytest.
+- Usage mode: enter 'pytest' in a terminal in the same working directory of this script.
+"""
+
 
 def test_fibonacci_iterative_1_is_1():
     assert fib_iterative.fib(1) == 1
